@@ -327,7 +327,7 @@ header ul.nav li a {
 }
 
 .navbar .nav > li > a {
-  color: #111;
+  color: #ffffff;
   text-shadow: none;
 }
 
@@ -962,7 +962,7 @@ form#commentform textarea {
 }
 
 .work-nav #filters li a.selected {
-  color: #de5e60;
+  color: #ff6600;
 }
 
 #thumbs {
@@ -976,8 +976,6 @@ form#commentform textarea {
 
 .item-thumbs {
   position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
   cursor: pointer;
 }
 
@@ -1020,6 +1018,7 @@ form#commentform textarea {
   height: 100%;
   opacity: 0.8;
   filter: alpha(opacity=80);
+  transform: translateZ(280px);
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -2310,8 +2309,8 @@ article .align-right {
     border: none;
   }
   a.detail {
-    background: none;
-    width: 100%;
+    background: #ffffff;
+        width: 100%;
   }
   .nivo-caption {
     width: 50%;
@@ -2800,4 +2799,30 @@ article .align-right {
   outline: 0;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+.nav_fontcolor{
+  color: #ffffff;
+}
 /* Theme Styler :: End */
+
+.product_logo{
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    border: 0px;
+    position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+}
